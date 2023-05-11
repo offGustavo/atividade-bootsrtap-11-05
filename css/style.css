@@ -1,0 +1,63 @@
+
+
+.navBar{
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+
+    background: black;
+    color: white;
+
+
+
+}
+
+.navBar  ul{
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+}
+.navBar a{
+    color: white;
+    
+}
+
+/* .mainContainer{
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo titulo titulo" 
+    "img img img aside"  
+    "img img img aside"
+    "img img img aside"
+    "img img img aside"
+    "img img img aside"
+;   
+    gap: 1rem;
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  
+}
+
+.titulo{
+    grid-area: titulo;
+    background-color: aqua;
+
+}
+.resumo{
+    grid-area: titulo;
+} */
+nav a{
+    color: white;
+}
+.img img{
+ width: 100%;
+}
+
+p{
+    text-align: justify;
+}
